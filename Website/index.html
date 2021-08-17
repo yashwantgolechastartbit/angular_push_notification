@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>One Signal Push Notification</title>
+        <style>
+            h1{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>One Signal Push Notification Example</h1>
+
+        <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+        <script>
+            window.OneSignal = window.OneSignal || [];
+                OneSignal.push(function() {
+                    OneSignal.init({
+                        appId: "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxx", // Put your one signal app id
+                });
+            });
+        </script>
+    </body>
+</html>
